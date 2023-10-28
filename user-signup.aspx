@@ -43,8 +43,8 @@
                                     ValidationGroup="vg1" ErrorMessage="Password is blank" ForeColor="Red" Display="Dynamic" ></asp:RequiredFieldValidator>
                             </div>
                              <div class="form-group">
-                                 <asp:Textbox  id="txtmobile" runat="server" type="password" class="form-control input-h-42"
-                                    placeholder="Confirm Password" ></asp:Textbox>
+                                 <asp:Textbox  id="txtmobile" runat="server" class="form-control input-h-42"
+                                    placeholder="mobile no." ></asp:Textbox>
                                  <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="txtmobile" 
                                     ValidationGroup="vg1" ErrorMessage="mobile is blank" ForeColor="Red" Display="Dynamic" ></asp:RequiredFieldValidator>
                             </div>

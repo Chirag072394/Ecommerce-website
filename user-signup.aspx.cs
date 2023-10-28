@@ -23,8 +23,8 @@ public partial class usersignup : System.Web.UI.Page
 
     protected void Page_Load(object sender, EventArgs e)
     {
-         
-    }
+    }  
+    
     protected void btnsubmitclick(object sender, EventArgs e)
     {
 
@@ -37,16 +37,13 @@ public partial class usersignup : System.Web.UI.Page
             string vemail = txtemail.Text.Trim();
             string vmobile = txtmobile.Text.Trim();
             string vpassword = txtpassword.Text.Trim();
-            
-           
-
             con.Open();
-            sql = "insert into usersignup(username,password,mobile,email) values(@vvname,@vvpassword,@vvemail,@vvmobile)";
+            sql = "insert into usersignup(name,email,mobile,password) values(@vvname,@vvemail,@vvmobile,@vvpassword)";
             SqlCommand cmd = new SqlCommand(sql, con);
             cmd.Parameters.AddWithValue("@vvname", vname);
-            cmd.Parameters.AddWithValue("@vvpassword", vpassword);
-            cmd.Parameters.AddWithValue("@vvphoneno", vmobile);
             cmd.Parameters.AddWithValue("@vvemail", vemail);
+            cmd.Parameters.AddWithValue("@vvmobile", vmobile);
+            cmd.Parameters.AddWithValue("@vvpassword", vpassword);            
             cmd.ExecuteNonQuery();
             con.Close();
             ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Record Save Successfully')", true);
