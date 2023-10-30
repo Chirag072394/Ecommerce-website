@@ -4,31 +4,25 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-   <meta charset="utf-8">
+   <meta charset="utf-8"/>
     <meta content='IE=edge' http-equiv=X-UA-Compatible>
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
 
     <title>MS Admin Panel</title>
-    <link rel="shortcut icon" type="image/png" href="#">
+    <link rel="shortcut icon" type="image/png" href="#"/>
 
     <!-- Core Css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/datatables.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/line-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/jquery.mCustomScrollbar.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-select.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-slider.css">
-
+    <link rel="stylesheet" type="text/css" href="assets/css/datatables.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/line-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.mCustomScrollbar.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-select.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-slider.css"/>
     <!-- Custom Css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.min.css">
-
-    
+    <link rel="stylesheet" type="text/css" href="assets/css/style.min.css"/>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-
-
- 
 </head>
 <body>
           <!-- ########## START: Login Form ########## -->
@@ -69,11 +63,9 @@
             </div>
         </div>
     </section>
-           </form>
-   
+
+       </form>
     <!-- ########## END: Login Form ########## -->
-
-
 <script src="assets/scripts/jquery.min.js"></script>
 <script src="assets/scripts/popper.min.js"></script>
 <script src="assets/scripts/bootstrap-slider.min.js"></script>
@@ -85,8 +77,6 @@
 <script src="assets/scripts/datatables.min.js"></script>
 <script src="assets/scripts/ripple.min.js"></script>
 <script src="assets/scripts/custome.js"></script>
-
-
 
 </body>
 </html>
