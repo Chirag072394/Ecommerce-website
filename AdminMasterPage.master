@@ -40,7 +40,7 @@
             <a href="admin-index.aspx"><img src="assets/image/logo.png" alt="MS Admin Panel" width="80" /></a>
         </div>
         <ul class="custom-scroll">
-            <li class="active"><a href="admin-index.html" class="waves-effect waves-primary"><i
+            <li class="active"><a href="admin-index.aspx" class="waves-effect waves-primary"><i
                         class="la la-dashboard"></i>Dashboard</a></li>
             <li><a href="admin-products.aspx" class="waves-effect waves-primary"><i class="la la-clone"></i>Products</a></li>
             <!-- <li><a href="javascript:;" class="waves-effect waves-primary"><i
@@ -75,7 +75,7 @@
         </asp:ContentPlaceHolder>
     </div>
     </form>
-    <script src="assets/scripts/jquery.min.js"></script>
+<script src="assets/scripts/jquery.min.js"></script>
 <script src="assets/scripts/popper.min.js"></script>
 <script src="assets/scripts/bootstrap-slider.min.js"></script>
 <script src="assets/scripts/bootstrap.min.js"></script>
