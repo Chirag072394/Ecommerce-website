@@ -49,52 +49,35 @@
                   </div>
               </div>
           </div> <!-- Slider -->
-
-
-          
-          <div id="content"> <!-- Content -->
-              <div class="container">
-                  <div class="home-content">
-                      <div class="cat-offers">
-                          <div class="row">
-                              <div class="col-md-4">
-                                  <div class="cat-sec-1">
-                                      <img src="images/cat-1.jpg" class="img-responsive" alt="">
-                                      <div class="cat-desc">
-                                          <div class="cat-inner">
-                                              <div class="cat-title">man<span>Clothing</span></div>
-                                              <a href="" class="btn btn-border">Buy Now</a>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div class="col-md-4">
-                                  <div class="cat-sec-2">
-                                      <img src="images/cat-2.jpg" class="img-responsive" alt="">
-                                       <div class="cat-desc">
-                                           <div class="cat-inner">
-                                              <div class="cat-title">woman<span>Clothing</span></div>
-                                              <a href="" class="btn btn-border">Buy Now</a>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div class="col-md-4">
-                                  <div class="cat-sec-3">
-                                      <img src="images/cat-3.jpg" class="img-responsive" alt="">
-                                       <div class="cat-desc">
-                                           <div class="cat-inner">
-                                              <div class="cat-title">accessories<span>collections - 2014</span></div>
-                                              <a href="" class="btn btn-border">shop Now</a>
-                                           </div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              
+        <div class="container">
+            <div class="row">
+                <asp:GridView ID="GridView1" CssClass="row" runat="server" AutoGenerateColumns="False" >
+                    <RowStyle CssClass="col-md-3"/>
+                    <Columns>
+                        <asp:TemplateField>
+                            <ItemTemplate>
+                                <div class="single-latest-image">
+                                    <a href="#">
+                                        <asp:Image ID="Image1" Width="236" Height="234" runat="server" ImageUrl='<%# Eval("image") %>'/>
+                                    </a>
+                                </div>
+                                <div class="single-latest-text">
+                                    <h3><a href="#"><%# Eval("productname") %></a></h3>
+                                        <h3><a href="#"><%# Eval("price") %></a></h3>
+                                                   
+                                    <p style="text-align:justify; padding-right:5px;" id="aboutdata"><%# Eval("category") %></p>
+                                    <%--<a href="center.aspx?name=<%# Eval("pagelink") %>" class="button-default">Add to cart</a>--%>
+                                </div>
+                            </ItemTemplate>
+                            <ItemStyle CssClass="single-latest-item"/>
+                        </asp:TemplateField>
+                    </Columns>
+                </asp:GridView>
+                <script type="text/javascript">
+                    document.getElementById("aboutdata").innerHTML = document.getElementById("aboutdata").innerHTML.slice(0, 150);
+                </script>           
+            </div>
+        </div>
               <div class="newest">
                   <div class="container">
                       <div class="newest-content">

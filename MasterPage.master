@@ -39,6 +39,7 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
+    <form id="form1" runat="server">
       <div id="wrapper" class="homepage-1"> <!-- wrapper -->
        <div id="header">
          <div id="cat-nav">
@@ -239,11 +240,11 @@
 
    
     
-        <form id="form2" runat="server">
+        
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
-            </form>
+           
  
 
 
@@ -335,5 +336,6 @@
               </div>
           </div><!-- Footer -->
        </div> <!-- wrapper -->
+        </form>
 </body>
 </html>
