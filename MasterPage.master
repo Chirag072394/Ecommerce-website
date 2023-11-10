@@ -9,6 +9,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
    <title>Trends</title>
 
+    <style>
+        .swiper {
+        width: 600px;
+        height: 300px;
+        }
+    </style>
+
+    
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
     <!-- fonts -->
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700' rel='stylesheet' type='text/css'/>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300' rel='stylesheet' type='text/css'/>
@@ -237,18 +250,10 @@
     <script src="js/jquery.prettyPhoto.js"></script>
     <script src="js/jquery.selectbox-0.2.js"></script>
     <script src="js/theme-script.js"></script>
-
-   
     
-        
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
-           
- 
-
-
-
    
    <div id="footer"><!-- Footer -->
               <div class="footer-widget">

@@ -24,7 +24,7 @@ public partial class _Default : System.Web.UI.Page
     {
         GetData();
     }
-
+    
     public void GetData()
     {
         con.Open();

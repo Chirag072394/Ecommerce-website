@@ -29,7 +29,7 @@
 
      /*Image*/
     .file-upload {
-		background-color: #ffffff;
+		background-color:  #008AD8;
 		width: 100%;
 		margin: 0 auto;
 		padding: 2px;
@@ -40,8 +40,8 @@
 		padding: 1px;
 		text-transform: uppercase;
 		color: #fff;
-		background-color: #ff6800;
-		border: 2px solid #ff6800;
+		background-color:  #008AD8;
+		border: 2px solid  #008AD8;
 	}
 	.file-upload-input{
 		display: none;
@@ -49,7 +49,7 @@
 
 	.image-upload-wrap {
 		margin-top: 2px;
-		border: 2px solid #ff6800;
+		border: 2px solid  #008AD8;
 	}
 	.image-title-wrap {
 		padding: 1px;
@@ -76,9 +76,11 @@
 </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-<section id="admin-products">               
+
+<section id="admin-products">  
    <div class="row">
         <div class="col-md-12" style="height:60px;"></div>
+         <div class="col-md-12" style="height:60px;"></div>
         <div class="col-md-4"></div>
         <div class="col-md-4">
             <div class="panel panel-primary">
